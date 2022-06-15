@@ -35,3 +35,9 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+# CodeCoverage
+[Oo]utput/
+[Cc]odeCoverage/
+coverage.cobertura.xml
+TestResults/
