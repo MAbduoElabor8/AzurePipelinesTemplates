@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApi", "src\WeatherForecastApi\WeatherForecastApi.csproj", "{436BF49A-4BD9-43A1-B1FF-7EDD86C0EEB4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{19E87C0F-FCED-4F2F-BA6C-FF330D439B89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApiTests", "tests\WeatherForecastApiTests\WeatherForecastApiTests.csproj", "{7902E748-1124-4909-99B7-5378AF5B9CEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5A8E03D-765A-4900-BCEA-90F77EC32749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7902E748-1124-4909-99B7-5378AF5B9CEC} = {19E87C0F-FCED-4F2F-BA6C-FF330D439B89}
+		{436BF49A-4BD9-43A1-B1FF-7EDD86C0EEB4} = {D5A8E03D-765A-4900-BCEA-90F77EC32749}
 	EndGlobalSection
 EndGlobal
